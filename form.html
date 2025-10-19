@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subgenres of Rap - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+
+    <h1>
+      Sign Up
+    </h1>
+
+  </header>
+
+  <!--  
+  This form is for signing up to the Subgenres of Rap website. 
+  The action attribute of the form sends the user to index.html after sumbitting the form.
+  The form collects the login info, personal info, and rap music preferences of the person using the website.
+  -->
+
+  <main>
+    <form method="get" action="index.html">
+      <fieldset>
+        <legend>Login Info</legend>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <br>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </fieldset>
+
+      <br>
+      <br>
+
+      <fieldset>
+        <legend>Personal Info</legend>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <br>
+        <br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="fav-subgenre">Favorite Rap Subgenre:</label>
+        <select id="fav-subgenre" name="fav-subgenre" required>
+          <option value="boom-bap">
+            Boom Bap
+          </option>
+          <option value="trap">
+            Trap
+          </option>
+          <option value="gfunk">
+            G-Funk
+          </option>
+          <option value="conscious">
+            Conscious Rap
+          </option>
+          <option value="soundcloud">
+            Soundcloud Rap
+          </option>
+          <option value="other">
+            Other
+          </option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="fav-artist">Favorite Hip-Hop Artist:</label>
+        <br>
+        <br>
+        <textarea id="fav-artist" name="fav-artist" rows="4" cols="50" required></textarea>
+        <br>
+        <br>
+
+        <label for="favsong">Favorite Song:</label>
+        <input type="url" id="favsong" name="favsong" placeholder="Paste URL for favorite song" required>
+        <br>
+      </fieldset>
+      <br>
+
+      <input type="submit" value="Sign Up">
+      <br>
+      <br>
+      <br>
+      <input type="reset" value="Reset Form">
+    </form>
+  </main>
+
+  <footer>
+    <h3 style="text-align:center">
+      &copy;2025 Subgenres of Rap. No rights reserved.
+  </footer>
+</body>
+</html>

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Subgenres of Rap - Home Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
@@ -12,11 +13,14 @@
     Course: Web Development 10S
     Teacher: Mr. Hardman
     School: Pembina Trails Collegiate
-    Date Last Modified: October 16, 2025
+    Date Last Modified: October 19, 2025
   -->
 
   <header>
 
+    <!-- 
+      Picture of some of the most iconic rap albums of all time put into a collage. It features albums from many different subgenres, eras, and artists
+    -->
     <img 
       src="https://m.media-amazon.com/images/I/51cyOjw5duL.jpg"
       width="160"
@@ -167,14 +171,74 @@
     </h2>
 
     <p style="text-align:center">
-      This website is all about the different subgenres of rap music. Here, you can explore many different styles of rap, learn about their origins, characteristics, and popularartists. 
+      This website is all about the different subgenres of rap music. Here, you can explore many different styles of rap, learn about their origins, characteristics, and popular artists. 
       <br>
       Whether you're a die-hard hip-hop fan or just discovering the genre, this site has something for everyone interested in learning more about rap music.
     </p>
+
+    <!-- 
+      I inserted an iframe embedding a YouTube video about different subgenres of hip-hop. I centered it using CSS styling in the iframe tag.
+    -->
+    <iframe 
+      width="640" 
+      height="360" 
+      src="https://www.youtube.com/embed/f6Bz4JWf5lk" 
+      style="display:block; margin-left:auto; margin-right:auto"
+      title="5 Hip-Hop Subgenres in Just 5 Minutes" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen
+    >
+    </iframe>
+
+    <br>
+
+    <!--
+    Table showing various subgenres of rap, their different characteristics, and some of the most popular artists within each subgenre.
+    <thead> and <tbody> are used for better organization and possibly adding CSS later on.
+    -->
+    <table>
+      <thead>
+        <tr>
+          <th>Subgenre</th>
+          <th>Description</th>
+          <th>Popular Artists</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Boom Bap</td>
+          <td>A classic style of hip-hop characterized by hard-hitting drum beats and jazzy samples.</td>
+          <td>Nas, Wu-Tang Clan, The Notorious B.I.G.</td>
+        </tr>
+        <tr>
+          <td>Trap</td>
+          <td>A modern subgenre known for its heavy 808s, fast hi-hats, and dark, gritty lyrics.</td>
+          <td>Future, Migos, Travis Scott</td>
+        </tr>
+        <tr>
+          <td>G-Funk</td>
+          <td>A West Coast style of hip-hop that blends funk samples with smooth, melodic synths and laid-back sound.</td>
+          <td>Dr. Dre, Snoop Dogg, Warren G</td>
+        </tr>
+        <tr>
+          <td>Conscious Hip-Hop</td>
+          <td>A subgenre focused on rapping about social issues, political awareness, and positive messages.</td>
+          <td>Kendrick Lamar, J. Cole, Common</td>
+        </tr>
+        <tr>
+          <td>Soundcloud Rap</td>
+          <td>An experimental and often lo-fi style of hip-hop that originated on Soundcloud, merging trap with emo and punk influences.</td>
+          <td>Playboi Carti, Lil Uzi Vert, Juice WRLD</td>
+        </tr>
+      </tbody>
+    </table>
   </main>
 
   <footer>
-
+    <h3 style="text-align:center">
+      &copy;2025 Subgenres of Rap. No rights reserved.
   </footer>
 </body>
 </html>

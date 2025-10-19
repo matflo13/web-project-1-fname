@@ -1,0 +1,13 @@
+/*Stylesheet for my Web Development project on subgenres of rap*/
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Verdana, serif;
+}
+
+header {
+    background-color: #111111;
+    padding: 20px;
+    text-align: center;
+}
