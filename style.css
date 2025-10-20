@@ -23,6 +23,11 @@ table, th, td {
     border-collapse: collapse;
     border: 1px solid #FFFFFF;
     padding: 10px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+th {
+    background-color: #141414;
 }
 
 /* Adds a white border and a slight margin around all the pictures on the website.*/
