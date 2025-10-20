@@ -41,3 +41,9 @@ img, iframe {
 h1, h2, h3, p, th{
     text-shadow: 2px 2px  10px #000000
 }
+
+a {
+    color: #58aeff;
+    text-decoration: none;
+    text-shadow: 2px 2px 10px #000000;
+}
