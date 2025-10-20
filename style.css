@@ -1,20 +1,23 @@
 /*Stylesheet for my Web Development project on subgenres of rap*/
 
+/* Describes the main background color, text color, tex alignment and font for the whole website*/
 body {
-    background-color: #000000;
+    background-color: #272727;
     color: #FFFFFF;
     font-family: Verdana, serif;
     text-align: center;
 }
 
+/* This makes the header background color light grey, while also adding a white border around it.*/
 header {
-    background-color: #666666;
+    background-color: #5c5c5c;
     padding: 20px;
     text-align: center;
     border: 5px solid #FFFFFF;
     margin-bottom: 20px;
 }
 
+/* This adds a border to the table on the homepage while also centering it.*/
 table, th, td {
     margin: 0 auto;
     border-collapse: collapse;
@@ -22,7 +25,20 @@ table, th, td {
     padding: 10px;
 }
 
+/* Adds a white border and a slight margin around all the pictures on the website.*/
 img {
     border: 3px solid #FFFFFF;
     margin: 10px;
+    box-shadow: 0px 5px 15px #000000;
+}
+
+/* Adds a subtle shadow to emphasize important info on the page.*/
+h1, h2, h3, p, th{
+    text-shadow: 2px 2px  10px #000000
+}
+
+/* Adds a white border and margin around the iframes.*/
+iframe {
+    border: 3px solid #FFFFFF;
+    margin: 20px;
 }
