@@ -26,7 +26,7 @@ table, th, td {
 }
 
 /* Adds a white border and a slight margin around all the pictures on the website.*/
-img {
+img, iframe {
     border: 3px solid #FFFFFF;
     margin: 10px;
     box-shadow: 0px 5px 15px #000000;
@@ -35,10 +35,4 @@ img {
 /* Adds a subtle shadow to emphasize important info on the page.*/
 h1, h2, h3, p, th{
     text-shadow: 2px 2px  10px #000000
-}
-
-/* Adds a white border and margin around the iframes.*/
-iframe {
-    border: 3px solid #FFFFFF;
-    margin: 20px;
 }
